@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f4f6;
+    color: #111;
+    padding: 20px;
+}
+.container {
+    max-width: 600px;
+    background: #fff;
+    padding: 30px;
+    margin: auto;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+h1 {
+    margin-bottom: 20px;
+    color: #2a2a2a;
+}
+input[type="file"], input[type="submit"] {
+    padding: 8px;
+    margin: 5px 0;
+}
+input[type="submit"] {
+    background: #111;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.note {
+    font-size: 13px;
+    color: #666;
+}
